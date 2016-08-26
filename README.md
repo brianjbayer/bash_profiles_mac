@@ -9,6 +9,6 @@ Contains a `bashrc` sourced by the `.bash_profile`
 
 ###To softlink:
 ln -s *source* *new-link*  
-`$ ln -s bash_profile/.bashrc .bashrc`  
-`$ ln -s bash_profile/.bash_profile .bash_profile`  
+`$ ln -s bash_profiles/.bashrc .bashrc`  
+`$ ln -s bash_profiles/.bash_profile .bash_profile`  
 
