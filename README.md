@@ -8,7 +8,7 @@ Contains a `bashrc` sourced by the `.bash_profile`
 3. Softlink the `.bash_profile` and `.bashrc` files into the home directory
 
 ###To softlink:
-ln -s *source* *new-link*
-`$ ln -s bash_profile/.bashrc .bashrc`
-`$ ln -s bash_profile/.bash_profile .bash_profile`
+ln -s *source* *new-link*  
+`$ ln -s bash_profile/.bashrc .bashrc`  
+`$ ln -s bash_profile/.bash_profile .bash_profile`  
 
