@@ -18,7 +18,7 @@ alias golo='git log '
 #if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
 # Add jEnv to your path
-export PATH="$HOME/.jenv/bin:$PATH"
+#export PATH="$HOME/.jenv/bin:$PATH"
 
 ### RBENV ###
 # Enable shims and autocompletion
