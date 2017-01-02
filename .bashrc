@@ -1,10 +1,11 @@
-
+###################################
 # NOTE: Sourced by .bash_profile
+###################################
+
 
 ### ALIASES ###
 alias lsa='ls -al '
 alias cls='clear '
-
 
 # Git Aliases
 alias gb='git branch '
@@ -13,20 +14,25 @@ alias go='git checkout '
 alias gs='git status '
 alias golo='git log '
 
-### JENV ###
-# Enables shims and autocompletion
+
+### ENVIRONMENT MANAGERS ###
+## JENV - Enable shims and autocompletion
 #if which jenv > /dev/null; then eval "$(jenv init -)"; fi
 
-# Add jEnv to your path
-#export PATH="$HOME/.jenv/bin:$PATH"
-
-### RBENV ###
-# Enable shims and autocompletion
+## RBENV -  Enable shims and autocompletion
 #if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 
 ### PATHS ###
+## HOMEBREW - override
 export PATH="/usr/local/bin:$PATH"
+
+## JENV - override
+#export PATH="$HOME/.jenv/bin:$PATH"
+
+## RBENV - override (especially homebrew's ruby)
+#export PATH="$HOME/.rbenv/shims:$PATH"
+
 
 ### PROMPT ###
 # Git branch in prompt.
