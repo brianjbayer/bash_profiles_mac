@@ -24,9 +24,6 @@ alias golo='git log '
 
 
 ### PATHS ###
-## HOMEBREW - override
-export PATH="/usr/local/bin:$PATH"
-
 ## JENV - override
 #export PATH="$HOME/.jenv/bin:$PATH"
 
