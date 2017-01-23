@@ -24,11 +24,7 @@ alias golo='git log '
 
 
 ### PATHS ###
-## JENV - override
-#export PATH="$HOME/.jenv/bin:$PATH"
-
-## RBENV - override (especially homebrew's ruby)
-#export PATH="$HOME/.rbenv/shims:$PATH"
+# I got nothing yet
 
 
 ### PROMPT ###
